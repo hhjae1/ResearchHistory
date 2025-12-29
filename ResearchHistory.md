@@ -23,6 +23,7 @@
 - **[[25-11-17] urdf_collision_configuration_solution.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-11-17]%20urdf_collision_configuration_solution.md.md)** - URDF 차량 Collision 설정 문제 해결
 - **[[25-11-25] blender_data_genesis_mlp.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-11-25]%20blender%20data_genesis_mlp.md)** - Blender 차량 직진 데이터 추출 및 Genesis MLP 적용
 - **[[25-12-17] data_extraction_revision_and_issues.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-12-17]%20data_extraction_revision_and_issues.md)** - Blender 데이터 추출 재조정 및 S자 주행 데이터 문제점
+- **[[25-12-28] data_extraction.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-12-28]%20data_extraction.md)** - Blender 차량 시뮬레이션 데이터 추출 및 Genesis 적용 방법 정리
 
 ---
 
@@ -32,7 +33,7 @@
 - **9월**: 드론 예제 시뮬레이션 기초 분석 (URDF, 물리 엔진, 제어)
 - **10월**: 강화학습 프레임워크 및 메모리 효율성에 대한 분석
 - **11월**: 간단한 urdf를 만들고 직접 Genesis에 적용
-- **12월**: 데이터 처리 최적화 및 이슈 해결(진행 중)
+- **12월**: 차량 시뮬레이션 데이터 추출 체계 확립 및 적용 방법 정리
 
 ### 2025-09
 - **Genesis Drone Analysis** - URDF, 물리 엔진, 제어 시스템 분석 완료
@@ -46,6 +47,7 @@
 
 ### 2025-12
 - **Genesis Data Extraction Issues** - S자 주행 데이터 처리 문제점 파악
+- **Blender → Genesis Data Pipeline** - 차량 시뮬레이션 데이터 추출 및 적용 방법 정리
 
 ---
 
@@ -56,15 +58,16 @@
 - **Reinforcement Learning**: [[25-09-30] drone_mlp_reward.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-09-30]%20drone_mlp_reward.md)
 - **Training Memory**: [[25-10-18] drone_rollout_memory.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-10-18]%20drone_rollout_memory.md)
 - **Data Integration**: [[25-11-25] blender_data_genesis_mlp.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-11-25]%20blender%20data_genesis_mlp.md)
+- **Vehicle Data Extraction**: [[25-12-28] data_extraction.md](https://github.com/hhjae1/Genesis_AI-REPORT/blob/main/[25-12-28]%20data_extraction.md)
 
 ---
 
 ## 📝 Notes
 
 - 모든 문서는 Markdown 형식으로 작성됨
-- 주요 언어: Python/PyTorch
+- 주요 언어: Python / PyTorch
 - 이미지 및 다이어그램 포함
 
 ---
 
-**Last Updated**: 2025-12-17
+**Last Updated**: 2025-12-28
